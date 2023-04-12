@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+
+
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 7px;
+    width: 5%;
+    border-color:grey;
+    margin: 30px auto 20px auto;
+    
+}
+
+
+
+h1 {
+    margin-top: 50px;
+    margin-bottom:0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: #66BFBF;
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top:0px;
+    color: #66BFBF;
+    padding-bottom: 10px;
+    
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+
+}
+
+
+/*CLASS SELECTORS*/
+
+
+.cloud-bottom{ 
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+
+.cloud-top{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+.topcontainer{
+    background-color:#E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    
+
+}
+
+.middle-container{
+    margin: 100px 0 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 30px 0 20px;
+    margin-top: 30px;
+
+   
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+
+.guitarist{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.coder{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+    
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .imagewa{
+    width: 15%;
+    padding-bottom: 30px;
+  }
+
+  .contact-message{
+    width: 40%;
+    margin:40px auto 60px auto;
+
+  }
+  
+  .i-am{
+    width: 30%;
+    margin: auto;
+  }
+
+ .copyright{
+    color: #EAF6F6;
+    font-size: 12px;
+ }
+  
+  
